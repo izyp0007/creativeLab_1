@@ -135,9 +135,7 @@ div {
 .header input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-div .footer {
-    color: red;
-}
+
 @media screen and (max-width : 740px){
     body {
         padding: 0px;
