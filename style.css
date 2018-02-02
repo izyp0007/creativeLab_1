@@ -1,7 +1,6 @@
 
 body {
     font-size: 16px;
-   background:white;
 }
 
 .container {
@@ -21,9 +20,6 @@ body {
 	grid-column-gap: 0;
 	grid-row-gap: 0;
   	background-color: #02464F;
-}
-.footer .href{
-color:white;
 }
 div {
     text-align: center;
@@ -141,6 +137,9 @@ div {
 }
 .header input[type=checkbox]:checked ~ #menu{
     display: block;
+}
+div .footer {
+    color: red;
 }
 @media screen and (max-width : 740px){
     body {
