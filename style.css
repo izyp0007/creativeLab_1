@@ -14,7 +14,7 @@ body {
 }
 .portfolio{
 	display: grid;
-	grid-template-columns: 300px 300px 300px;
+	grid-template-columns: 300px 300px 300px ;
 	grid-template-rows:300px 300px 300px;
 	grid-column-gap: 0;
 	grid-row-gap: 0;
@@ -23,8 +23,8 @@ body {
 .image{
 	background-color:#02464F;
 	display:flex;
-	width: 130px;
-   	height: 200px;
+	width: auto;
+   	height: auto;
 	padding: 45px;
 	float: center;
 }
