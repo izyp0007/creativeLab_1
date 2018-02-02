@@ -13,13 +13,20 @@ body {
     grid-gap: 50px;
 }
 .portfolio{
-
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
 	grid-template-rows:300px 300px 300px;
 	grid-column-gap: 0;
 	grid-row-gap: 0;
   	background-color: #02464F;
+}
+.image{
+	background-color:#02464F;
+	display:flex;
+	width: 130px;
+   	height: auto;
+	padding: 45px;
+	float: center;
 }
 div {
     text-align: center;
@@ -33,14 +40,6 @@ div {
     grid-area: header;
     background-color: #416B71;
     height: 130px;
-}
-.image{
-	background-color:white;
-	display:flex;
-	width: auto;
-   	height: auto;
-	padding: 45px;
-	float: center;
 }
 .sidebar {
     grid-area: sidebar;
